@@ -1,3 +1,6 @@
+#Bu devre için Esp32 nin içine ssd1306 kütüphanesi eklenmelidir#
+#Ilgili kütüphaneye "https://randomnerdtutorials.com/micropython-oled-display-esp32-esp8266/" linkinden ulaşabilirsin.#
+
 from machine import Pin, I2C, PWM
 import ssd1306
 import time
